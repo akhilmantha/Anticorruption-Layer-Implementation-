@@ -1,42 +1,18 @@
 # AntiCorruption Layer Implementation
 
-If your application needs to deal with a database or another application whose model is undesirable or inapplicable to the model you want within your own application, use an Anticorruption Layer to translate to/from that model and yours
+If your application needs to deal with a database or another application whose model is undesirable or inapplicable to the model you want within your own application, use an Anticorruption Layer to translate to/from that model and yours.
 
-## Getting Started
+Found this book on Domain Driven Design by Eric Evans where he mentions "When systems based on different models are combined, the need for the new system to adapt to the semantics of the other system can lead to a corruption of the new system’s own" which is so true.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Example
 
-What things you need to install the software and how to install them
+I am really interested in solving fin-tech related problems. I am considering a credit card information fetch and then append it to an account.
+To fetch this information we need to talk to an old and not much reliable SOAP server to fetch information.
+There are a lot ways to implement ACL but here I will be using design patterns like facade, adapter and translator.
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
 
 Explain what these tests test and why
 
