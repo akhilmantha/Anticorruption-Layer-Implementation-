@@ -14,10 +14,10 @@ There are a lot ways to implement ACL but here I will be using design patterns l
 
 ## Running the tests
 
-Explain what these tests test and why
+Only mock types that you own. Don't mock types that you can't change.
 
 ```
-Give an example
+When we create a integration test, we need to do it from a well known system state. For example, if we want to test the integration between a repository and a database we need firts we need to create table, populate with some concrete data, execute the test and check that database state has been changed in the way we had expected.
 ```
 
 ### And coding style tests
