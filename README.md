@@ -25,9 +25,8 @@ Only mock types that you own. Don't mock types that you can't change.
 
 I will be adding tests for the snippets soon.
 
-```
 When we create a integration test, we need to do it from a well known system state. For example, if we want to test the integration between a repository and a database we need firts we need to create table, populate with some concrete data, execute the test and check that database state has been changed in the way we had expected.
-```
+
 
 ## Authors
 
